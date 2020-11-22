@@ -116,7 +116,9 @@
             "styles": [
               "src/styles.scss"
             ],
-            "scripts": []
+            "scripts": [{
+              "deploy": "ng build --prod --base-href https://botarvlad.github.io/notesApp/ && angular-cli-ghpages --branch gh-pages"
+            }]
           }
         },
         "lint": {
